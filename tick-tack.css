@@ -1,0 +1,114 @@
+body {
+    background-color:lightseagreen;
+}
+.game {
+background-color:navy;
+color:aliceblue;
+width:1450px;
+height:80px;
+margin-top:10px;
+display:flex;
+justify-content:center;
+border:2px, solid, lightblue;
+border-left-width: 20px;
+border-top-width:5px;
+border-right-width:5px;
+border-bottom-width:5px;
+}
+.title{
+    text-decoration:dashed;
+}
+.choices {
+    display:flex;
+}
+.choices {
+    display:flex;
+    margin-left:0px;
+    padding: 20px;
+    justify-content:space-evenly;
+    margin-right:45px;
+    margin-top:50px;
+    
+}
+#rock {
+    width:200px;
+    height:200px;
+    background-color:grey;
+    margin-right:0px;
+    border-radius:50%;    
+    display:flex;
+    justify-content:space-evenly;
+    background-image: url('rock.webp');
+    background-size:cover;
+     align-items:center;
+     justify-content:center;
+      border: 10px, solid, transparent;
+}
+#paper {
+    width:200px;
+    height:200px;
+    background-color:grey;
+    display:flex;
+       justify-content:space-evenly;
+       border-radius:50%;
+       background-image: url('paper.jpeg');
+       background-size:cover;
+        align-items:center;
+         justify-content:center;
+          border: 10px, solid, transparent;
+}
+#scissor {
+    width:200px;
+    height:200px;
+    background-color:grey;
+    display:flex;
+    justify-content:space-evenly;
+    border-radius:50%;
+    background-image: url('scissor.jpeg');
+    background-size:cover;
+    align-items:center;
+     justify-content:center;
+      border: 10px, solid, transparent;
+}
+.title2 {
+    font-size:2rem;
+    margin-top:40px;
+    display:flex;
+    justify-content: space-evenly;
+}
+#rock:hover {
+    cursor:pointer;
+    background-color:black;
+    border:10px, solid, black;
+     justify-content:center;
+}
+#paper:hover {
+    opacity:0.5px;
+    cursor:pointer;
+    background-color:black;
+    border:10px, solid, black;
+     justify-content:center;
+}
+#scissor:hover {
+    opacity:0.5px;
+    cursor:pointer;
+    background-color:black;
+    border:10px, solid, black;
+     justify-content:center;
+}
+#msg {
+    margin-top:2rem;
+    background-color: black;
+    color:White;
+    font-size:2rem;
+    display:block;
+    width:fit-content;
+    margin-left: auto;
+    margin-right:auto;
+     border: 3px solid transparent;
+     border-radius:10px;
+   
+}
+#msg:hover {
+    border:3px, solid, white;
+}
